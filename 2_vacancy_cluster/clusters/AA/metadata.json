@@ -1,0 +1,71 @@
+{
+  "config": "AA",
+  "n_pz": 58,
+  "n_sigma": 3,
+  "n_orbitals": 61,
+  "patch_cutoffs_A": {
+    "bottom": 6.0,
+    "top": 4.0,
+    "far_field_for_energy_reference": 5.0
+  },
+  "local_frame": "origin = missing (vacancy) carbon site of the donor; x,y,z in Angstrom; donor axes",
+  "donor_cell_A": [
+    [
+      12.782535,
+      7.38,
+      0.0
+    ],
+    [
+      -12.782535,
+      7.38,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      30.0
+    ]
+  ],
+  "donor_vacancy_site_A": [
+    1.4202816622000007,
+    7.38,
+    12.0
+  ],
+  "sigma_parent_carbons_donor": [
+    14,
+    20,
+    21
+  ],
+  "spins": {
+    "up": {
+      "energy_shift_bottom_eV": 1.8644206829268293,
+      "energy_shift_top_eV": 1.9811899024390245,
+      "far_field_std_bottom_eV": 0.0238630177220297,
+      "far_field_std_top_eV": 0.003813399372078611,
+      "pz_sign_flipped_on_carbons": [],
+      "sigma_block_eigenvalues_eV": [
+        -6.657916721274127,
+        -1.1386887029129589,
+        2.0045997483679696
+      ],
+      "sigma_pi_coupling_norm_kept_eV": 0.19425978199003863,
+      "sigma_pi_coupling_norm_dropped_eV": 0.01955613179518906,
+      "max_imag_part_eV": 9.821420120082234e-05
+    },
+    "dn": {
+      "energy_shift_bottom_eV": 1.842452731707317,
+      "energy_shift_top_eV": 1.9779487073170734,
+      "far_field_std_bottom_eV": 0.03229207860581471,
+      "far_field_std_top_eV": 0.004437793333452369,
+      "pz_sign_flipped_on_carbons": [],
+      "sigma_block_eigenvalues_eV": [
+        -6.6087576464220295,
+        1.0638363064371907,
+        2.1431717092643003
+      ],
+      "sigma_pi_coupling_norm_kept_eV": 0.9014129242042201,
+      "sigma_pi_coupling_norm_dropped_eV": 0.028554441798047975,
+      "max_imag_part_eV": 0.00012445245529435606
+    }
+  }
+}
